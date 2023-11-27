@@ -3,23 +3,28 @@
 ### teste de API / 
 GET http://localhost:40000/ HTTP/1.1 content-type: application/json
 
-### teste de API ordenaVetor
+### teste de API que Ordena os Valores
 POST http://localhost:40000/ordenaVetor
 content-Type: application/json
 
 {
+    //"vetor": [1]
+    //"vetor": [21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+
     //"vetor": [9,1,8,2,7,3,6,4,5]
     //"vetor": [0,25,5,55,15,20,10,120]
-    //"vetor": [56,12,89,34,65,32,87,36]
-
+    //"vetor": [-99,56,12,89,34,65,32,87,36]
 }
 
-### teste de API ordenaVetor
+### teste de API que mostra o Maior e o Menor Número
 POST http://localhost:40000/menorMaior 
 content-Type: application/json
 
 {
+    //"vetor": [1]
+    //"vetor": [21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]
+
     //"vetor": [9,1,8,2,7,3,6,4,5]
     //"vetor": [0,25,5,55,15,20,10,120]
-    //"vetor": [56,12,89,34,65,32,87,34]
+    //"vetor": [-99,56,12,89,34,65,32,87,36]
 }

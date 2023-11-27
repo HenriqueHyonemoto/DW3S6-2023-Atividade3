@@ -1,0 +1,25 @@
+### arquivo: tests.rest
+
+### teste de API / 
+GET http://localhost:40000/ HTTP/1.1 content-type: application/json
+
+### teste de API ordenaVetor
+POST http://localhost:40000/ordenaVetor
+content-Type: application/json
+
+{
+    //"vetor": [9,1,8,2,7,3,6,4,5]
+    //"vetor": [0,25,5,55,15,20,10,120]
+    //"vetor": [56,12,89,34,65,32,87,36]
+
+}
+
+### teste de API ordenaVetor
+POST http://localhost:40000/menorMaior 
+content-Type: application/json
+
+{
+    //"vetor": [9,1,8,2,7,3,6,4,5]
+    //"vetor": [0,25,5,55,15,20,10,120]
+    //"vetor": [56,12,89,34,65,32,87,34]
+}
